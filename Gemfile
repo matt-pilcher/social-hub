@@ -11,7 +11,10 @@ gem 'rails', '~> 5.1.4'
 gem 'bootstrap-sass', '3.3.7'
 gem 'jquery-rails'
 
+#Authentication
+gem 'devise'
 
+#Testing
 
 
 # Use postgresql as the database for Active Record

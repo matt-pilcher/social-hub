@@ -13,7 +13,7 @@ gem 'jquery-rails'
 
 #Authentication
 gem 'devise'
-
+gem 'bootstrap_form'
 #Testing
 
 

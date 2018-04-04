@@ -4,22 +4,22 @@
     
 
     <div class="col-sm-offset-4 col-sm-4">
-      <h3>Sign up <small>it's free!</small></h3> 
+     
       <%= bootstrap_form_for(resource, 
                        :as => resource_name, 
                        :url => registration_path(resource_name)) do |f| %>
 
         <%= f.text_field :name, 
-      	           placeholder: 'username', 
+      	           placeholder: 'Username', 
       	           class: 'form-control' %>
         <%= f.text_field :email, 
-      	           placeholder: 'email', 
+      	           placeholder: 'Email', 
       	           class: 'form-control' %>
         <%= f.password_field :password, 
-                             placeholder: 'password', 
+                             placeholder: 'Password', 
                              class: 'form-control' %>
         <%= f.password_field :password_confirmation, 
-                             placeholder: 'password confirmation', 
+                             placeholder: 'Verify Password', 
                              class: 'form-control' %>
         <%= f.submit 'Sign up', class: 'btn sign-up-button' %>
       <% end %>
